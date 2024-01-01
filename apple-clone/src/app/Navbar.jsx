@@ -19,9 +19,11 @@ import { IoBagOutline } from "react-icons/io5";
 
 export default function Navbar() {
   return (
-    <div className='flex flex-row text-xs gap-x-10 w-full justify-center items-center py-2 bg-gray-900 text-slate-100 h-10'>
+    <div
+      className='flex flex-row text-xs gap-x-10 w-full justify-center items-center py-2  text-slate-100 h-10'
+      style={{ backgroundColor: "#131312" }}>
       <Button isIconOnly href='/'>
-        <FaApple width={50} height={50} />
+        <FaApple className='w-5 h-5' />
       </Button>
       <Store />
       <Mac />
